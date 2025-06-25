@@ -20,6 +20,14 @@ Fanouškovská stránka inspirovaná světem Harryho Pottera. Najdeš zde přehl
 - **MySQL**
 - **HTML / CSS / JavaScript**
 
+## 📚 Co jsem se naučil
+
+- Práce s PHP pro generování dynamického obsahu
+- Vytváření strukturovaného a responzivního layoutu
+- Základy práce s JavaScriptem na straně klienta
+- Zlepšení v organizaci souborů a plánování webové architektury
+- Jak oddělovat obsah, styl a logiku ve webovém projektu
+
 ## 🧪 Demo účet
 
 Pro testování můžeš použít demo přihlašovací údaje:

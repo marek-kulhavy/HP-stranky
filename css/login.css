@@ -1,0 +1,142 @@
+main {
+    height: 100vh;
+    background: linear-gradient(#0A1931, #1e3a5fbe),
+                url("../images/hp-portal.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-form {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form h1 {
+    color: #E6D2A2;
+    text-shadow: 5px 5px 5px #000;
+    font-size: 4vw;
+    letter-spacing: 1px;
+    font-family: Bradley Hand, cursive;
+    margin-bottom: 40px;
+}
+
+.login-input {
+    border: 2px solid #b8b8b8;
+    outline: none;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 18px;
+    width: 260px;
+    padding: 10px 10px;
+    margin: 5px 0;
+    background: transparent;
+    transition: background-color 5000s ease-in-out 0s; 
+}
+
+.login-input::placeholder {
+    color: #b8b8b8;
+}
+
+.login-input:focus {
+    border: 2px solid #fff;
+}
+
+.login-input:-webkit-autofill,
+.login-input:-webkit-autofill:hover,
+.login-input:-webkit-autofill:focus,
+.login-input:-webkit-autofill:active {
+    -webkit-text-fill-color: #fff !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    background: transparent !important;
+    caret-color: #fff; 
+}
+
+
+.btn {
+    width: 260px;
+    font-size: 20px;
+    padding: 10px 10px;
+    background-color: #121212;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.btn:hover {
+    background: #000;
+}
+
+.registr-text p {
+    font-size: 25px;
+    margin: 35px auto;
+    font-weight: bold;
+    color: #E6D2A2;
+    text-shadow: 5px 5px 5px #000;
+    font-family: Bradley Hand, cursive;
+}
+
+.registration {
+    width: 260px;
+    font-size: 20px;
+    padding: 10px 10px;
+    background-color: #121212;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    
+
+}
+
+.registration:hover {
+    background-color: #000;
+}
+
+.registration a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+
+.back-to-main {
+    padding: 10px 10px;
+    border-radius: 15px;
+    margin: 20px 0 30px;
+    font-size: 15px;
+    /* background: #121212; */
+    text-decoration-color: #fff;
+    transition: all 0.3s linear;
+}
+
+.back-to-main:hover {
+    /* background: #000; */
+    font-size: 18px;
+    text-decoration: underline;
+    text-decoration-color: #fff;
+}
+
+.back-to-main a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.footer { 
+    font-size: 18px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}

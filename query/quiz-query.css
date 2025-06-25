@@ -1,0 +1,42 @@
+@media (max-width: 1024px) {
+    .choose-form {
+        width: 400px; 
+    }
+    
+    .choose-form h1 {
+        font-size: 40px;
+        padding-bottom: 80px;
+        margin-top: 50px;
+    }
+    
+    label {
+        font-size: 20px;
+    }
+    
+    select, button {
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 750px) {
+    .choose-form {
+        width: 90%; 
+        max-width: 300px; 
+    }
+    
+    .choose-form h1 {
+        font-size: 30px;
+        padding-bottom: 60px;
+        margin-top: 50px;
+    }
+    
+    label {
+        font-size: 18px;
+    }
+    
+    select, button {
+        font-size: 16px;
+        padding: 8px;
+    }
+}

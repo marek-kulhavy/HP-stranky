@@ -1,0 +1,55 @@
+@media (max-width: 1024px) {
+
+    .img-film img {
+        top: 190px;
+        width: 200px;
+    }
+
+    .about-film-story h1 {
+        top: 560px;
+        font-size: 30px;
+    }
+    
+    .about-film-story p,
+    .about-film h3 {
+        font-size: 20px;
+        width: 80%;
+    }
+
+    .about-film li {
+        width: 100%;
+    }
+
+    .about-film p {
+        width: 80%;
+        font-size: 16px;
+    }
+
+    h2 {
+        width: 400px;
+        font-size: 25px;
+    }
+
+    .about-film nav {
+        width: 95%;
+    }
+} 
+
+@media (max-width: 500px) {
+    .img-film {
+        min-height: 620px;
+        height: 100%;
+    }
+
+    .img-book img {
+        width: 150px;
+    }
+
+    .about-film-story h1 {
+        top: 550px;
+    }
+
+    .about-film nav {
+        width: 95%;
+    }
+}

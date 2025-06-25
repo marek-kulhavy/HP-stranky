@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(#0A1931, #1e3a5f79),
+                url("../images/hp-portal.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main {
+    flex: 1;
+    width: 100%;
+    margin: 100px auto 0;
+}
+
+h1 {
+    margin-top: 30px;
+    padding: 0 0 50px;
+    font-size: 50px;
+    letter-spacing: 1px;
+    font-family: 'MedievalSharp', cursive;
+}
+
+p {
+    margin: 0 0 20px;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+h2 {
+    margin: 20px 0 10px;
+    font-size: 20px;
+}
+
+h4 {
+    margin-top: 30px;
+    padding: 0 0 30px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-family: 'MedievalSharp', cursive;
+}
+
+.first-paragraph {
+    position: relative;
+}
+
+.first-paragraph::first-letter {
+    float: left;
+    font-size: 5.5em;
+    line-height: 0.95;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #0A1931;
+    font-family: 'MedievalSharp', cursive;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.section {
+    background-color: #ffffff90;
+    width: 100%;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 50px 80px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.section-image {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+    gap: 40px;
+}
+
+.text-content {
+    flex: 1;
+    min-width: 60%;
+    max-width: 750px;
+    line-height: 1.6;
+}
+
+.image-container {
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
+    margin: 50px auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-container img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: contain;
+    border-radius: 15px;
+}
+
+.image-container h3 {
+    padding: 10px 0;
+    margin: 10px 0 0;
+    text-align: center;
+}
+
+.another-text {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 60px;
+    gap: 40px;
+}
+
+.another-text img {
+    min-width: 200px;
+    max-width: 300px;
+}
+
+.intro-text {
+    max-width: 750px;
+    margin-bottom: 40px;
+}

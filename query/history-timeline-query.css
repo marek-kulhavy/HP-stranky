@@ -1,0 +1,40 @@
+@media (max-width: 750px) {
+    h1 {
+        width: 80vw;
+        font-size: 30px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        padding: 15px;
+    }
+    
+    .timeline::after {
+        left: 31px; 
+    }
+    
+    .event {
+        width: 90%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+    
+    .left, .right {
+        left: 0;
+    }
+    
+    .left::after, .right::after {
+        left: 13px;
+    }
+    
+    .left::before, .right::before {
+        left: 50px; 
+        width: 20px;
+    }
+    
+    .right::before {
+        left: 50px;
+    }
+    
+    .content {
+        padding: 15px 20px;
+    }
+}

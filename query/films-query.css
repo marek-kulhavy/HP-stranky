@@ -1,0 +1,28 @@
+@media (max-width: 1024px) {
+    .films nav {
+        width: 548px;
+        margin: 0 auto;
+    }
+
+    .films li {
+        width: 250px;
+        margin-bottom: 50px;
+    }
+
+    .header {
+        font-size: 20px;
+        width: 400px;
+    }
+
+}
+
+@media (max-width: 550px) {
+    .films nav {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .films li {
+        width: 70vw;
+    }
+}

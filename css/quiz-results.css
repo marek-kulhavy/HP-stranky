@@ -1,0 +1,54 @@
+body {
+    height: 70vh;
+    background: #1a252f;
+    background-image: url("../images/stardust.png");
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #E6D2A2;
+    background-color: #121212;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 40px;
+    font-family: Bradley Hand, cursive;
+}
+
+.results {
+    color: #E6D2A2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+
+}
+
+.results h2 {
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+.results p {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.play-again, .play-new {
+    padding: 10px 15px;
+    border-radius: 25px;
+    margin-top: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #000;
+
+    color: #E6D2A2;
+}
+
+.play-again:hover, .play-new:hover {
+    background-color: #121212;
+}

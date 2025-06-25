@@ -1,0 +1,139 @@
+body {
+    min-height: 100vh;
+    background: linear-gradient(#0A1931, #1e3a5f79),
+                url("../images/hp-portal.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    margin: 150px auto 0;
+}
+
+/***** Main-heading section *****/
+.main-heading {
+    text-align: center;
+    max-width: 1024px;
+    margin: 120px auto 0;
+}
+
+.main-heading h1 {
+    color: #E6D2A2;
+    margin-bottom: 100px;
+    text-shadow: 5px 5px 5px #000;
+    font-size: 4vw;
+    letter-spacing: 1px;
+    font-family: Bradley Hand, cursive;
+}
+
+.intro {
+    background-color: #00000090;
+    width: 100%;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 50px 80px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.main-heading h2 {
+    color: #E6D2A2;
+    margin-bottom: 20px;
+}
+
+.main-heading p {
+    color: #E6D2A2; 
+    margin-bottom: 20px;
+}
+
+/***** Grid section *****/
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    padding: 35px;
+    margin: 100px 0;
+}
+.card {
+    /* background-color: #2d2d44; */
+    background-color: #00000090;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+    transition: transform 0.2s linear;
+}
+.card:hover {
+    transform: scale(1.03);
+    background-color: #000;
+}
+.card h2 {
+    color: #ffd700;
+    margin-bottom: 10px;
+}
+.card p {
+    color: #E6D2A2; 
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.card a {
+    color: #fff;
+    background-color: #a67c00;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 8px;
+    display: inline-block;
+}
+.card a:hover {
+    background-color: #ffcc00;
+    color: #000;
+}
+.auth-section {
+    max-width: 1024px;
+    margin: 0 auto 120px;
+    border-radius: 8px;
+    background-color: #00000090;
+    text-align: center;
+    padding: 30px 20px;
+    transition: transform 0.2s linear;
+}
+
+.auth-section:hover {
+    transform: scale(1.03);
+    background-color: #000;
+}
+.auth-section h2 {
+    color: #ffd700;
+    margin-bottom: 15px;
+}
+.auth-section p {
+    margin-bottom: 30px;
+    color: #E6D2A2; 
+}
+.auth-buttons a {
+    margin: 0 10px;
+    padding: 10px 16px;
+    text-decoration: none;
+    background-color: #a67c00;
+    color: #fff;
+    border-radius: 8px;
+}
+.auth-buttons a:hover {
+    background-color: #ffcc00;
+    color: #000;
+}
+
+
+
+
+
+
+@media (max-width: 1024px) {
+
+    .main-heading h1 {
+        font-size: 50px;
+    }
+}
+

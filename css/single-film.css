@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+body {
+    height: 100vh;
+    background: #F8E8C0;
+    background-image: url("../images/background-123.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    margin: 100px auto 0;
+}
+
+h2 {
+    width: 40vw;
+    border-radius: 25px;
+    font-size: 30px;
+    color: #E6D2A2;
+    background: #0A1931;
+    background-image: url("../images/stardust.png");
+    text-align: center;
+    margin: 40px auto;
+    padding: 15px 0;
+    letter-spacing: 1px;
+    font-family: 'MedievalSharp', cursive;
+}
+
+/***** Story book section *****/
+
+/* Image */
+.img-film {
+    min-height: 650px;
+    height: 100%;
+    background: #0A1931;
+    background-image: url("../images/stardust.png");
+}
+
+.img-film img {
+    position: absolute;
+    top: 160px;
+    left: 50%;
+    width: 250px;
+    transform: translate(-50%, 0%);
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px #000;
+}
+
+/* Header */
+.about-film-story h1 {
+    font-size: 40px;
+    color: #E6D2A2;
+    text-shadow: 5px 5px 5px #000;
+    position: absolute;
+    top: 620px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 1px;
+    font-family: 'MedievalSharp', cursive;
+}
+
+.about-film-story p {
+    color: #000;
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 25px;
+    padding: 100px 20px;
+    text-align: justify;
+}
+
+/***** About book section *****/
+
+.about-film nav {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 25px;
+    padding: 40px 20px;
+    text-align: justify;
+}
+ 
+.about-film h3 {
+    width: 100%;
+    color: #000;
+    font-size: 25px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+.about-film p {
+    width: 100%;
+    color: #000;
+    font-size: 20px;
+    margin: 0 auto;
+    padding-bottom: 25px;
+    text-align: justify;
+}
+
+/* Other books */
+.other-films h2 {
+    margin-top: 50px;
+}
+
+

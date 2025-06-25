@@ -1,0 +1,113 @@
+main {
+    height: 100vh;
+    background: linear-gradient(#0A1931, #1e3a5fbe),
+                url("../images/hp-portal.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.registr-form {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.registr-form h1 {
+    color: #E6D2A2;
+    text-shadow: 5px 5px 5px #000;
+    font-size: 4vw;
+    letter-spacing: 1px;
+    font-family: Bradley Hand, cursive;
+    margin-bottom: 40px;
+}
+
+.registr-input {
+    border: 2px solid #b8b8b8;
+    outline: none;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 18px;
+    width: 260px;
+    padding: 10px 10px;
+    margin: 5px;
+    background: transparent;
+    transition: background-color 5000s ease-in-out 0s; 
+}
+
+.registr-input::placeholder {
+    color: #b8b8b8; 
+}
+
+.registr-input:focus {
+    border: 2px solid #fff;
+}
+
+.registr-input:-webkit-autofill,
+.registr-input:-webkit-autofill:hover,
+.registr-input:-webkit-autofill:focus,
+.registr-input:-webkit-autofill:active {
+    -webkit-text-fill-color: #fff !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    background: transparent !important;
+    caret-color: #fff; 
+}
+
+.btn {
+    width: 260px;
+    font-size: 20px;
+    padding: 10px 10px;
+    background-color: #121212;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.btn:hover {
+    background: #000;
+}
+
+.footer { 
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+
+.valid {
+    display: flex;
+    justify-content: center;
+    color: greenyellow;
+    font-size: 20px;
+}
+
+.invalid {
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-size: 20px;
+}
+
+.registr-form a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #fff;
+    background: #121212;
+    transition: all 0.3s linear;
+}
+
+.registr-form a:hover {
+    background: #000;
+}

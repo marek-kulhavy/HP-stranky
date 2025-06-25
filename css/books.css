@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+
+/***** Body *****/
+body {
+    min-height: 100vh;
+    background: #430001;
+    background-image: url("../images/stardust.png");
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/***** Main *****/
+main {
+    max-width: 1240px;
+    width: 100%;
+    margin: 150px auto 0;
+}
+
+/***** Headers *****/
+.header {
+    font-size: 25px;
+    width: 50vw;
+    color: #E6D2A2;
+    background-color: #121212;
+    border: none;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 50px;
+    letter-spacing: 1px;
+    font-family: 'MedievalSharp', cursive;
+}
+
+
+/*****  Main books
+        Other books first
+        Other books second
+*****/
+.main-books nav,
+.other-books-first nav,
+.other-books-second nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+.main-books li,
+.other-books-first li,
+.other-books-second li {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    padding: 20px;
+    margin: 10px;
+    vertical-align: top;
+}
+
+.main-books li:hover,
+.other-books-first li:hover,
+.other-books-second li:hover {
+    transform: scale(1.2);
+}
+
+.main-books a,
+.other-books-first a,
+.other-books-second a {
+    text-decoration: none;
+}
+
+.main-books img,
+.other-books-first img,
+.other-books-second img {
+    border-radius: 25px;
+    width: 100%;
+}
+
+.main-books p,
+.other-books-first p,
+.other-books-second p  {
+    width: 100%;
+    text-align: center;
+    color: #E6D2A2;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+
+
+

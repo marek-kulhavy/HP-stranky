@@ -1,0 +1,36 @@
+@media (max-width: 1024px) {
+    .old-adaptation nav, 
+    .new-adaptation nav, 
+    .mobile-games nav {
+        width: 548px;
+        margin: 0 auto;
+    }
+
+    .old-adaptation li , 
+    .new-adaptation li,
+    .mobile-games li {
+        width: 250px;
+        margin-bottom: 50px;
+    }
+
+    .header {
+        font-size: 20px;
+        width: 400px;
+    }
+
+}
+
+@media (max-width: 550px) {
+    .old-adaptation nav, 
+    .new-adaptation nav, 
+    .mobile-games nav {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .old-adaptation li , 
+    .new-adaptation li,
+    .mobile-games li {
+        width: 70vw;
+    }
+}

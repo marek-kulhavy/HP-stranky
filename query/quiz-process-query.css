@@ -1,0 +1,66 @@
+@media (max-width: 1024px) {
+    body {
+        height: 80vh;
+    }
+    
+    h1 {
+        height: 180px;
+        font-size: 36px;
+        padding: 8px;
+    }
+    
+    .question {
+        width: 70%; 
+        top: 15%;
+    }
+    
+    .question p {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    
+    .answer {
+        font-size: 16px;
+        padding: 8px;
+    }
+    
+    button {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 750px) {
+    body {
+        height: 90vh;
+    }
+    
+    h1 {
+        height: 150px;
+        font-size: 28px;
+        padding: 5px;
+    }
+    
+    .question {
+        width: 70%;
+        top: 10%;
+    }
+    
+    .question p {
+        font-size: 13px;
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+    
+    .answer {
+        font-size: 14px;
+        margin: 15px 0;
+        padding: 6px;
+    }
+    
+    button {
+        padding: 7px 10px;
+        font-size: 13px;
+    }
+}

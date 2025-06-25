@@ -1,0 +1,63 @@
+@media (max-width: 1024px) {
+    body {
+        height: 75vh;
+    }
+    
+    h1 {
+        height: 180px;
+        font-size: 36px;
+        padding: 8px;
+    }
+    
+    .results {
+        height: 55vh;
+    }
+    
+    .results h2 {
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+    
+    .results p {
+        font-size: 18px;
+    }
+    
+    .play-again, .play-new {
+        font-size: 18px;
+        padding: 9px 14px;
+    }
+}
+
+
+@media (max-width: 750px) {
+    body {
+        height: 80vh;
+    }
+    
+    h1 {
+        height: 150px;
+        font-size: 30px;
+        padding: 5px;
+    }
+    
+    .results {
+        height: 50vh;
+    }
+    
+    .results h2 {
+        font-size: 24px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    
+    .results p {
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    .play-again, .play-new {
+        font-size: 16px;
+        padding: 8px 12px;
+        margin-top: 20px;
+    }
+}

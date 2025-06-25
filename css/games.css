@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+/***** Body *****/
+body {
+    min-height: 100vh;
+    background: #1A472A;
+    background-image: url("../images/stardust.png");
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/***** Main *****/
+main {
+    max-width: 1240px;
+    width: 100%;
+    margin: 150px auto 0;
+}
+
+/***** Header  *****/
+.header {
+    font-size: 25px;
+    width: 50vw;
+    color: #E6D2A2;
+    background-color: #121212;
+    border: 0px solid #121212;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 50px;
+    letter-spacing: 1px;
+    font-family: 'MedievalSharp', cursive;
+}
+
+/***** Sections *****/
+.old-adaptation nav, 
+.new-adaptation nav, 
+.mobile-games nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+.old-adaptation li , 
+.new-adaptation li {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    padding: 20px;
+    margin: 10px;
+    vertical-align: top;
+}
+
+.mobile-games li {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    padding: 20px;
+    margin: 10px;
+    vertical-align: top;
+}
+
+.old-adaptation li:hover, 
+.new-adaptation li:hover, 
+.mobile-games li:hover {
+    transform: scale(1.2);
+}
+
+.old-adaptation a, 
+.new-adaptation a,
+.mobile-games a {
+    text-decoration: none;
+}
+
+.old-adaptation img, 
+.new-adaptation img,
+.mobile-games img {
+    border-radius: 25px;
+    width: 100%;
+}
+
+.old-adaptation p, 
+.new-adaptation p,
+.mobile-games p {
+    width: 100%;
+    text-align: center;
+    color: #E6D2A2;
+    margin-top: 10px;
+    font-size: 20px;
+}
+

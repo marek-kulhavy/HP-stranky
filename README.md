@@ -10,6 +10,10 @@ Fanouškovská stránka inspirovaná světem Harryho Pottera. Najdeš zde přehl
 - Možnost přihlášení (demo účet)
 - Databázové připojení pro plnou funkčnost
 
+## 📽️ Videoukázka
+
+![Ukázka stránky](readme-assets/Animace.gif)
+
 ## 💻 Použité technologie
 
 - **PHP**
